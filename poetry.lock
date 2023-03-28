@@ -745,6 +745,24 @@ pytest = ">=5.4"
 toml = ">=0.7.1"
 
 [[package]]
+name = "pytest-yls"
+version = "1.3.2"
+description = "Pytest plugin to test the YLS as a whole."
+category = "dev"
+optional = false
+python-versions = ">=3.8,<3.12"
+files = []
+develop = false
+
+[package.dependencies]
+pytest = "^7.2.2"
+tenacity = "^8.0.1"
+
+[package.source]
+type = "directory"
+url = "pytest_yls"
+
+[[package]]
 name = "pyyaml"
 version = "6.0"
 description = "YAML parser and emitter for Python"
@@ -820,6 +838,21 @@ files = [
 
 [package.dependencies]
 pbr = ">=2.0.0,<2.1.0 || >2.1.0"
+
+[[package]]
+name = "tenacity"
+version = "8.2.2"
+description = "Retry code until it succeeds"
+category = "dev"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "tenacity-8.2.2-py3-none-any.whl", hash = "sha256:2f277afb21b851637e8f52e6a613ff08734c347dc19ade928e519d7d2d8569b0"},
+    {file = "tenacity-8.2.2.tar.gz", hash = "sha256:43af037822bd0029025877f3b2d97cc4d7bb0c2991000a3d59d71517c5c969e0"},
+]
+
+[package.extras]
+doc = ["reno", "sphinx", "tornado (>=4.5)"]
 
 [[package]]
 name = "toml"
@@ -1001,4 +1034,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8,<3.12"
-content-hash = "23bf45938ba5719a10e6ac0fb2deb7487fe38783f0e177935337144205a49f24"
+content-hash = "fdae8686d3342c9779b652015f2bbcd7ca7fac1aca2810e1fb2a67ab86404d68"
