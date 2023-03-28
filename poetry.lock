@@ -752,7 +752,7 @@ category = "dev"
 optional = false
 python-versions = ">=3.8,<3.12"
 files = []
-develop = true
+develop = false
 
 [package.dependencies]
 pytest = "^7.2.2"
@@ -1034,4 +1034,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8,<3.12"
-content-hash = "e32c310a1fdbbc25e3aebf9dd05d1995c20cc727f8cc6accfcf78a7efe6dbe3d"
+content-hash = "1f52eeedd09cdcc69c97df4d098d2f27cbd137dbd87450c9935a939dea03e089"
